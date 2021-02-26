@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  padding: 30px 10%;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  // display: none;
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: lowercase;
+    li {
+      text-decoration: none;
+      display: inline-block;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+
+    div {
+      li:nth-child(1) {
+        a {
+          margin-right: 50px;
+        }
+      }
+    }
+  }
+}

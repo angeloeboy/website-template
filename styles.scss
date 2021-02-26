@@ -1,12 +1,16 @@
+$robotoFont: "Roboto", sans-serif;
+
 html,
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: $robotoFont;
 }
 
 .container {
@@ -17,3 +21,15 @@ body {
 .d-flex {
   display: flex;
 }
+
+body {
+  position: relative;
+  // background-color: green;
+  height: 100vh;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import "styles/nav";
+@import "styles/footer";
+@import "styles/works";
+// @import "styles/works-img";

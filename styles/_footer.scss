@@ -1,0 +1,11 @@
+footer {
+  position: fixed;
+  left: 10%;
+  bottom: 30px;
+  // background-color: pink;
+  .accounts {
+    img:nth-child(2) {
+      margin-left: 24px;
+    }
+  }
+}

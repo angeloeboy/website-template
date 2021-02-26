@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.nav {
+  position: fixed;
+  padding: 30px 10%;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+}
+
+.nav .logo {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.nav .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  text-transform: lowercase;
+}
+
+.nav .links li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav .links li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav .links div li:nth-child(1) a {
+  margin-right: 50px;
+}
+
+footer {
+  position: fixed;
+  left: 10%;
+  bottom: 30px;
+}
+
+footer .accounts img:nth-child(2) {
+  margin-left: 24px;
+}
+
+.work .work-titles {
+  width: 45%;
+  text-align: right;
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.work .work-titles p {
+  font-size: 37px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.work .work-titles p a {
+  text-decoration: none;
+  color: black;
+}
+
+.work .work-imgs {
+  position: absolute;
+  right: 15%;
+  padding-bottom: 130px;
+  width: 35%;
+}
+
+.work .work-imgs div {
+  padding-top: 10px;
+  height: 94vh;
+  padding-bottom: 100px;
+}
+
+.work .work-imgs div img {
+  height: 100%;
+  display: block;
+  margin: 100px 0px;
+}
+
+.work .clicked {
+  font-weight: 800;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
