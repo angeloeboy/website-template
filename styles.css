@@ -3,6 +3,7 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 
 * {
@@ -108,6 +109,8 @@ footer .accounts img:nth-child(2) {
 .work .work-titles p a {
   text-decoration: none;
   color: black;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .work .work-imgs {
@@ -129,8 +132,8 @@ footer .accounts img:nth-child(2) {
   margin: 100px 0px;
 }
 
-.work .clicked {
+.work .clicked a {
   font-weight: 800;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
