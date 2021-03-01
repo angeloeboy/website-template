@@ -14,6 +14,11 @@ body {
   font-family: $robotoFont;
 }
 
+.current-link {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
 .container {
   padding-left: 5px;
   padding-right: 5px;

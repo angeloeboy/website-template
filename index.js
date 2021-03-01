@@ -2,17 +2,25 @@ $(".work").scroll(() => {
     console.log("scrolled")
 })
 
-// $(".work-titles > p").click(() => {
-//     let className = $(this).attr("class")
 
-//     console.log(className)
-// })
+let clicked;
 
-$(".work-titles > p").click(function() {
+$(".work-titles > p > a").click(function() {
     let className = this.className;
-    
 
-    $(".work-titles > p").removeClass("clicked")
-    
-    $(`.${className}`).addClass("clicked")
+    // clicked = className;
+    let firstClass = className.split(" ")[0];
+
+    if($(`.${firstClass}`).hasClass("clicked")){
+        $(`.${firstClass}`).addClass("clicked")
+    }else{
+        $(".work-titles > p > a").removeClass("clicked")
+        $(`.${className}`).addClass("clicked")
+    }
+
+
+
+
  });
+
+

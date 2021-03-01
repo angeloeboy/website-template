@@ -4,7 +4,6 @@
   // flex-direction: row;
 
   .work-titles {
-    // background-color: red;
     width: 45%;
     text-align: right;
     height: 65vh;
@@ -30,8 +29,6 @@
   .work-imgs {
     position: absolute;
     right: 15%;
-    // width: 500px;
-    // background-color: pink;
     padding-bottom: 130px;
     width: 35%;
     div {
@@ -48,9 +45,19 @@
   }
 
   .clicked {
-    a {
-      font-weight: 800;
-      margin-right: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .work {
+    .work-titles {
+      width: 40%;
+    }
+
+    .work-imgs {
+      right: 20%;
     }
   }
 }
