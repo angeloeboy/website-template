@@ -1,8 +1,4 @@
 .work {
-  // background-color: pink;
-  // display: grid;
-  // flex-direction: row;
-
   .work-titles {
     width: 45%;
     text-align: right;
@@ -58,6 +54,56 @@
 
     .work-imgs {
       right: 20%;
+    }
+  }
+}
+
+@media only screen and (max-width: 952px) {
+  .work {
+    .work-titles {
+      display: none;
+    }
+
+    .work-imgs {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 55%;
+
+      div {
+        height: initial;
+        img {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          margin: 100px 0px 0px 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .work {
+    .work-imgs {
+      width: 70%;
+      div {
+        height: initial;
+        padding: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .work {
+    .work-imgs {
+      width: 90%;
+      padding-top: 0px;
+      img {
+        margin: 0px;
+        padding: 0px;
+      }
     }
   }
 }

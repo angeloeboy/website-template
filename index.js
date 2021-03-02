@@ -19,8 +19,22 @@ $(".work-titles > p > a").click(function() {
     }
 
 
+});
+
+let openMenu = () => {
+    $(".links").toggleClass("reveal-nav")
+    $(".nav-hamburger-menu").toggleClass("change-menu-bar")
+}
+
+$(".nav-hamburger-menu").click(() =>{
+    openMenu();
+
+})
 
 
- });
+$(".links-link").click(() => {
+    openMenu();
+
+})
 
 

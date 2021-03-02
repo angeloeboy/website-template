@@ -4,7 +4,14 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  overflow-y: hidden;
+  // overflow-y: hidden;
+}
+
+@media screen and (min-width: 952px) {
+  body,
+  html {
+    overflow-y: hidden;
+  }
 }
 
 * {
@@ -12,11 +19,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: $robotoFont;
-}
-
-.current-link {
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
 }
 
 .container {
@@ -38,4 +40,3 @@ body {
 @import "styles/nav";
 @import "styles/footer";
 @import "styles/works";
-// @import "styles/works-img";
