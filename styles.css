@@ -193,7 +193,7 @@ footer {
   bottom: 30px;
 }
 
-footer .accounts img:nth-child(2) {
+footer .accounts a:nth-child(2) {
   margin-left: 24px;
 }
 
