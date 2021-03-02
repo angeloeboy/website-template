@@ -200,7 +200,6 @@ footer .accounts img:nth-child(2) {
 .work .work-titles {
   width: 45%;
   text-align: right;
-  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,7 +216,7 @@ footer .accounts img:nth-child(2) {
 }
 
 .work .work-titles p {
-  font-size: 37px;
+  font-size: 35px;
   text-transform: uppercase;
   font-weight: 100;
 }
