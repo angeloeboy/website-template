@@ -8,12 +8,13 @@
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    // background-color: green;
+    background-color: green;
 
     p {
-      font-size: 35px;
+      font-size: 37px;
       text-transform: uppercase;
       font-weight: 100;
+
       a {
         text-decoration: none;
         color: black;
@@ -103,6 +104,16 @@
       img {
         margin: 0px;
         padding: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-height: 730px) {
+  .work {
+    .work-titles {
+      p {
+        font-size: 32px;
       }
     }
   }
